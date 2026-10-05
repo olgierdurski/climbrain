@@ -216,5 +216,28 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Środowisko i cache Pythona
+.venv/
+__pycache__/
+*.pyc
+
+# Wyniki budowania
+build/
+dist/
+
+# Dane robocze aplikacji
+storage/
+*.db
+*.sqlite3
+
+# Sekrety i klucze podpisywania
+.env
+*.jks
+*.keystore
+key.properties
+
+# Edytor
+.vscode/
+
 # Streamlit
 .streamlit/secrets.toml
